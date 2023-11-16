@@ -1,0 +1,328 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--scroll-padding,50px);
+    overflow-x: hidden;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --firstColor: #A82C48;
+    --secondColor:#43121d;
+    --thirdColor:#f98169;
+    --whiteColor:#ffffff;
+    --textColor:#0000;
+    --text-gray:#999;
+    --primary-font:'Roboto','sans-serif';
+    --secondary-font:"Quicksand",'sans-serif';
+}
+
+/* :active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+} */
+
+.chcolors{
+    color: var(--firstColor);
+}
+a:hover{
+    text-decoration: none;
+    color: var(--firstColor) !important;;
+}
+ul,ol{
+    margin:0;
+    padding: 0;
+}
+
+.done{
+    background:transparent !important;
+}
+html{
+    scroll-behavior: smooth;
+}
+.custom-btns:hover{
+  border-radius: 20px;
+  color: #ffffffff;
+  transition: all 0.40s ease-in;
+}
+
+.navbar{
+    position: sticky !important;
+    top: 0;
+    z-index: 1000 !important;
+}
+/* header design */
+.navigation-wrap.scroll-on{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--whiteColor)
+}
+.navigation-wrap{
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition:all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.custom-btn{
+    background-color: var(--firstColor)!important;
+}
+
+.custom-btn:hover{
+    background-color: white !important;
+    border: 2px solid var(--firstColor) !important;
+    color: var(--firstColor) !important;
+}
+.navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+.nav-link{
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.navigation-wrap{
+    padding: 0.3125rem 1.4375rem;
+}
+
+.main-btn{
+    box-shadow: none;
+    border: none;
+    background-color: var(--firstColor);
+}
+.bb{
+  border-bottom: 2px solid black;  
+  padding-bottom: 1px;
+}
+
+.book-food{
+    background-image: url("../images/bg/bg-3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:0 71.9125 px;
+    padding: 5rem 0;
+}
+
+
+.footer{
+    background-color: var(--firstColor);
+}
+
+
+
+
+
+.allSocal_icons a {
+    color: #ffff !important;
+    padding-left: 20px;
+}
+
+.footer .container .row a:hover{
+color: blue !important;
+}
+
+
+.top-banner{
+    /* background: url("../images/bg/bg-1.jpg") no-repeat center;
+    background: url("../images/homeimg/food2.webp") no-repeat center ; */
+    background: url("../images/homeimg/ffd.jpg") no-repeat center ;
+    width: 100%;
+    background-size: cover;
+    padding: 7.555rem 0 9.375rem;
+    font-weight:200;
+}
+
+.counter-section{
+    background: var(--firstColor);
+     padding: 5rem 0;
+}
+.counter-section p{
+    color:var(--whiteColor);
+    text-transform: uppercase;
+}
+
+.alldata{
+    height: 99vh;
+    display: flex;
+    align-items: center;
+    /* background: black; */
+}
+
+.image{
+    height: 77vh !important;
+    width: 50vw !important;
+}
+
+/* food type */
+
+/* .food-type ul li{
+    font-size: 1rem;
+    color:var(--textColor);
+    line-height: 32px;
+    position: relative;
+    margin-left: 30px;
+} */
+.about-section{
+    background-color: var(--whiteColor);
+}
+.about-section .card,
+.about-section .card img{
+    border-radius: 0.425rem;
+}
+
+/* story-section */
+
+.story-section{
+    width: 100%;
+    height: 20.125rem;
+    background: url("../images/bg/bg-2.jpg")no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    text-align: center;
+}
+.story-section h2{
+    color: var(--firstColor);
+    font-weight: 900;
+}
+
+.explore-foods .card{
+    border: none;
+    background-color: transparent;
+    border-radius: 0.935rem;
+}
+.explore-foods .card img{
+    border-radius: 0.935rem;
+    object-fit: cover;
+}
+
+.testinomial-section{
+    background-color: var(--firstColor);
+    padding: 0.976rem;
+}
+.testinomial-section .carousel-item{
+    margin-top: 3.125rem;
+    margin-bottom: 1.203rem;
+    padding: 7rem 3.124rem;    
+    background-color: white;
+    border-radius: 0.9375rem;
+    /* text-align: center ; */
+}
+
+.testinomial-section .carousel-item .carousel-caption p{
+    /* font-size: .3125rem; */
+    /* line-height: 2.0425rem; */
+    padding: 0 11%;
+}
+.testinomial-section .carousel-indicators button{
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 2rem;
+    opacity: 0.2;
+}
+.testinomial-section .carousel-indicators{
+    bottom:-2.01235rem;
+}
+.carousel-indicators button.active{
+    opacity: 1;
+}
+.carousel-caption img{
+    max-width: 5rem;
+    border-radius: 50%;
+    padding: 0.215rem;
+}
+.carousel-caption p,.carousel-caption h5{
+color: black
+}
+
+.cus{
+    width: 30px;
+}
+::-webkit-scrollbar{
+    background:var(--text-gray);
+    /* border-radius: 23px; */
+}
+/* ::-webkit-scrollbar-track{
+    background-color:green;
+    width: 10px;
+} */
+/* ::-webkit-scrollbar-track{
+background-color: transparent;
+} */
+::-webkit-scrollbar-thumb{
+    background:rgb(119, 43, 43);
+    border-radius: 23px;
+}
+
+/* media Qurey */
+
+@media (max-width:1074px) {
+
+}
+
+@media (max-width:991px) {
+  
+    .text-content{
+        width: 100%;
+    }
+    .navigation-wrap .navbar-brand img{
+        height: 3.812rem;
+    }
+    .navbar-nav{
+        text-align: center !important;
+        background: white;
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+    .testinomial-section .carousel-caption p{
+        padding: 0;
+    }
+}
+
+@media (max-width:764px) {
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.0625;
+    }
+    .top-banner{
+        padding: 10.075rem 0 9.375rem;
+    }
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+    .testinomial-section .carousel-item{
+        padding: 11rem 3.125rem;
+    }
+}
+
+@media (max-width:330px) {
+    .testinomial-section .carousel-item{
+        padding: 10rem 3.125rem;
+    }
+    #home {
+        height: 120vh !important;
+    }
+}
+
+
