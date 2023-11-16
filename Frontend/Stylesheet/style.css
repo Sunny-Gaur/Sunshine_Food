@@ -2,7 +2,6 @@ html{
     scroll-behavior: smooth;
     scroll-padding-top: var(--scroll-padding,50px);
     overflow-x: hidden;
-
 }
 
 
@@ -10,6 +9,8 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
+
 }
 :root{
     --firstColor: #A82C48;
@@ -141,7 +142,9 @@ color: blue !important;
     background: url("../images/homeimg/food2.webp") no-repeat center ; */
     background: url("../images/homeimg/ffd.jpg") no-repeat center ;
     width: 100%;
-    background-size: cover;
+    height: 94vh;
+    background-position:80%;
+    background-size:cover;
     padding: 7.555rem 0 9.375rem;
     font-weight:200;
 }
@@ -314,9 +317,18 @@ background-color: transparent;
     .testinomial-section .carousel-item{
         padding: 11rem 3.125rem;
     }
+   .ch{
+    position: absolute;
+    bottom: 0;
+   }
 }
 
 @media (max-width:330px) {
+/* 
+  .down{
+    position: absolute;
+    bottom: 0px !important;
+  } */
     .testinomial-section .carousel-item{
         padding: 10rem 3.125rem;
     }
